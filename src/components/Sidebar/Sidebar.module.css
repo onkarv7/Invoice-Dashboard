@@ -1,0 +1,87 @@
+.sidebarWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 45px;
+    position: absolute;
+    width: 270px;
+    height: 595px;
+    left: 21px;
+    top: 16.63px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.backLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    isolation: isolate;
+    width: 28px;
+    height: 28px;
+    border-radius: 32px;
+}
+
+.payLogo {
+    width: 104.65px;
+    height: 35px;
+}
+
+
+.sidebarLogos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    margin-left: -190px;
+    row-gap: 50px;
+}
+
+.sidebarLogos>div>img {
+    width: 16px;
+    height: 16px;
+}
+
+.sidebarLogos>div {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.sidebarLogos>div>h4 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--sidebar-text);
+
+}
+
+@media screen and (max-width: 768px) {
+    .sidebarWrapper {
+        display: none;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 30px;
+        gap: 45px;
+        position: absolute;
+        width: 270px;
+        height: 595px;
+        left: 21px;
+        top: 16.63px;
+        background-color: var(--white);
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+}

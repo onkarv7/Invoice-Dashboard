@@ -1,0 +1,230 @@
+.headerWrapper {
+    width: 100vw;
+}
+
+.hero {
+    height: 155.17px;
+    width: 100%;
+    background-color: var(--bg-grey);
+    mix-blend-mode: hard-light;
+}
+
+
+
+.header {
+    display: flex;
+    position: absolute;
+    top: 23px;
+    gap: 20px;
+    left: 412px;
+    align-items: center;
+}
+
+.daysData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+    width: 630px;
+    height: 80px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 15px;
+    width: 303.42px;
+    height: 80.42px;
+    right: 14px;
+    top: 28px;
+
+    background: var(--white);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+
+
+.paidWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    width: 102px;
+    height: 54px;
+    background: var(--primary);
+    border-radius: 5px;
+}
+
+.pendingWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    width: 128px;
+    height: 54px;
+
+    background: var(--bg-grey);
+    border-radius: 5px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.overdueWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+
+    width: 189px;
+    height: 54px;
+
+    background: var(--orange);
+    border-radius: 5px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.profileImage {
+    width: 50.42px;
+    height: 50.42px;
+}
+
+.profileTitle {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+
+
+    color: var(--black);
+
+}
+
+
+.daysData p {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: var(--bg-black);
+
+
+
+}
+
+
+.pendingWrapper h3,
+.overdueWrapper h3,
+.paidWrapper h3 {
+
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+
+    color: var(--white);
+    margin-top: 5px;
+
+
+
+}
+
+.pendingWrapper h4,
+.overdueWrapper h4,
+.paidWrapper h4 {
+
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-transform: uppercase;
+
+    /* BG */
+    color: var(--white);
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    .header {
+
+        left: 10px;
+        align-items: center;
+    }
+
+    .daysData {
+        padding: 7px;
+        width: 420px;
+    }
+
+    .profile {
+        flex-direction: column;
+
+        padding: 5px 8px;
+        gap: 0px;
+        width: 133.42px;
+
+
+    }
+
+    .paidWrapper {
+        padding: 5px;
+        width: 72px;
+
+    }
+
+    .pendingWrapper {
+
+        padding: 5px;
+        width: 98px;
+        height: 54px;
+    }
+
+    .overdueWrapper {
+
+        padding: 5px;
+
+        width: 89px;
+
+    }
+
+
+    .profileTitle {
+
+        font-size: 14px;
+        line-height: 26px;
+
+    }
+
+
+
+}

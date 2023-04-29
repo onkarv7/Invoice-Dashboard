@@ -1,0 +1,251 @@
+.contentWrapper {
+    position: absolute;
+    left: 410px;
+}
+
+.contentHeadings {
+    margin-top: 30px;
+    display: flex;
+    gap: 262px;
+    align-items: center;
+}
+
+.contentTitle {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 101.2%;
+    color: var(--black)
+}
+
+.contentButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 41px;
+    gap: 10px;
+    width: 262px;
+    height: 63px;
+    background: var(--black);
+    border-radius: 5px;
+    /* font */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--white);
+}
+
+.invoiceWrapper {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.invoice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 33px 20px;
+    gap: 22px;
+    width: 200px;
+    height: 98px;
+    background-color: var(--bg-white);
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/* .revenue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 33px 20px;
+    gap: 42px;
+    width: 200px;
+    height: 90px;
+    background-color: var(--bg-white);
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+} */
+
+
+/* .overdue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 33px 20px;
+    gap: 42px;
+    width: 200px;
+    height: 90px;
+    background-color: var(--bg-white);
+    border-radius: 10px;
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+} */
+
+.clientTitle {
+    margin-top: 23px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: var(--black);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Search */
+.search {
+    display: flex;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+.searchInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    gap: 52px;
+    width: 274px;
+    background: #F1F1F1;
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #979797;
+}
+
+.searchButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 41px;
+    gap: 10px;
+
+    background: #000000;
+    border-radius: 5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.invoice h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    color: #979797;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.invoice h4 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .contentWrapper {
+        position: absolute;
+        left: 0px;
+        margin-left: 20px;
+    }
+
+    .contentHeadings {
+
+        gap: 60px;
+
+    }
+
+    .invoice h3 {
+
+        font-size: 10px;
+
+
+
+    }
+
+    .invoice h4 {
+
+        font-size: 17px;
+
+    }
+
+    .contentTitle {
+
+        font-size: 28px;
+        line-height: 101.2%;
+        color: var(--black)
+    }
+
+    .invoiceWrapper {
+        display: flex;
+        margin-top: 50px;
+        gap: 10px;
+        width: 550px;
+        margin-left: 20px;
+
+    }
+
+    .invoice {
+
+        padding: 13px 10px;
+        gap: 12px;
+        width: 80px;
+        height: 48px;
+        background-color: var(--bg-white);
+        border-radius: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+
+}
